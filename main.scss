@@ -1,1 +1,45 @@
 @import 'styles/variable.scss';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background: $background-primary;
+  font-family: $font-family-inter;
+}
+
+.card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: $background-secondary;
+  transform: translate(-50%, -50%);
+
+  &__title {
+    color: $white;
+    font-weight: $font-weight-bold;
+
+    &--highlight {
+      color: $accent;
+    }
+  }
+
+  &__text {
+    font-family: $font-family-lexend;
+    font-size: $font-size-small;
+    color: $white-opacity-75;
+  }
+}
+
+.stats {
+  &__counter {
+    color: $white;
+  }
+
+  &__name {
+    color: $white-opacity-60;
+  }
+}
