@@ -95,3 +95,25 @@
     letter-spacing: 1px;
   }
 }
+
+@media (min-width: 768px) {
+  .card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    height: 636px;
+    width: 420px;
+    transform: translate(-50%, -50%);
+
+    &__overlay {
+      height: 308px;
+    }
+  }
+
+  .stats {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0;
+  }
+}
