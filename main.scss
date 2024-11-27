@@ -34,7 +34,7 @@
       right: 0;
       display: block;
       content: '';
-      background: $accent;
+      background: $overlay-accent;
       opacity: 0.6;
     }
   }
@@ -153,8 +153,8 @@
 
 @media (min-width: 1400px) {
   .card {
-    height: 492px;
-    width: 1200px;
+    height: 440px;
+    width: 1120px;
 
     &__content {
       padding: 72px 80px 72px 66px;
@@ -165,7 +165,7 @@
     }
 
     &__text {
-      margin: 32px 56px 88px 0;
+      margin: 32px 56px 60px 0;
       line-height: 26px;
     }
   }
