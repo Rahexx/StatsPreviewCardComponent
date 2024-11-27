@@ -29,7 +29,7 @@
       right: 0;
       display: block;
       content: '';
-      background: #5d148a;
+      background: #510481;
       opacity: 0.6; }
   .card__image {
     height: 100%;
@@ -95,11 +95,11 @@
     height: 460px;
     width: 920px; }
     .card__overlay {
-      flex: 0 0 50%;
+      flex: 0 0 48%;
       height: 100%;
       width: 100%; }
     .card__content {
-      flex: 0 0 50%;
+      flex: 0 0 52%;
       padding: 72px 66px; }
     .card__title {
       text-align: start; }
@@ -115,11 +115,11 @@
     height: 440px;
     width: 1120px; }
     .card__content {
-      padding: 72px 80px 72px 66px; }
+      padding: 64px 80px 72px 66px; }
     .card__title {
       font-size: 2.5rem; }
     .card__text {
-      margin: 32px 56px 60px 0;
+      margin: 24px 56px 52px 0;
       line-height: 26px; }
 
   .stats {
